@@ -1,0 +1,22 @@
+{
+  "name": "jfuentes-portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tato30/vue-pdf": "^1.9.5",
+    "bootstrap": "^5.3.3",
+    "vue": "^3.4.15",
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-embed": "^2.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11"
+  }
+}
