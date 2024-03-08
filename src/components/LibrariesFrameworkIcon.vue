@@ -1,50 +1,28 @@
 <script>
-    import gh from '../assets/github.png';
-    import con from '../assets/confluence.png';
-    import jira from '../assets/at.png';
-    import vsc from '../assets/vsc.png';
-    import slack from '../assets/slack.png';
-    import fig from '../assets/figma.png';
-    import sql from '../assets/mysql.png';
-    import db from '../assets/mongodb.png';
-    import linux from '../assets/linux.png';
-    import jenkins from '../assets/jenkins.png';
+    import angular from '../assets/angular.png';
+    import vue from '../assets/vue.png';
+    import npm from '../assets/nodejs.png';
+    import boot from '../assets/bootstrap.png';
     export default {
         data() {
             return {
                 icons: [
                     {
-                        source: gh,
-                        title: "Github"
+                        source: angular,
+                        title: "Angular CLI"
                     },
                     {
-                        source: con,
-                        title: "Confluence"
+                        source: vue,
+                        title: "Vue JS"
                     },
                     {
-                        source: jira,
-                        title: "Jira"
+                        source: npm,
+                        title: "Node JS"
                     },
                     {
-                        source: vsc,
-                        title: "VS Code"
+                        source: boot,
+                        title: "Bootstrap"
                     },
-                    {
-                        source: slack,
-                        title: "Slack"
-                    },
-                    {
-                        source: fig,
-                        title: "Figma"
-                    },
-                    {
-                        source: sql,
-                        title: "My SQL"
-                    },
-                    {
-                        source: db,
-                        title: "Mongo DB"
-                    }
                 ]
             }
         }
@@ -54,7 +32,7 @@
 <template>
     <div class="row row-cols-1 row-cols-md-4 g-3">
         <div v-for="icon in icons" class="col">
-            <div  class="card text-center w-auto bg-transparent">
+            <div  class="card text-center w-auto  bg-transparent">
                 <img :src=icon.source class="card-img-top" alt="Python">
                 <div class="card-body">
                     <h5 class="card-title">{{ icon.title }}</h5>

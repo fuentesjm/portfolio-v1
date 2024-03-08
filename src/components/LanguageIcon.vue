@@ -3,14 +3,11 @@
     import cpp from '../assets/c++.png';
     import r from '../assets/rust.png';
     import js from '../assets/js.png';
-    import angular from '../assets/angular.png';
-    import vue from '../assets/vue.png';
-    import npm from '../assets/nodejs.png';
-    import git from '../assets/git.png';
-    import sql from '../assets/mysql.png';
     import java from '../assets/java.png';
     import typescript from '../assets/typescript.png';
-    import mongodb from '../assets/mongodb.png'
+    import html from '../assets/html.png';
+    import css from '../assets/css.png';
+
     export default {
         data() {
             return {
@@ -40,29 +37,13 @@
                         title: "Javascript"
                     },
                     {
-                        source: angular,
-                        title: "Angular"
+                        source: html,
+                        title: "HTML"
                     },
                     {
-                        source: vue,
-                        title: "Vue"
-                    },
-                    {
-                        source: npm,
-                        title: "Nodejs"
-                    },
-                    {
-                        source: git,
-                        title: "Git"
-                    },
-                    {
-                        source: sql,
-                        title: "MySQL"
-                    },
-                    {
-                        source: mongodb,
-                        title: "MongoDB"
-                    },
+                        source: css,
+                        title: "CSS"
+                    }
                 ]
             }
         }

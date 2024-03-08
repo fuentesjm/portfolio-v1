@@ -160,12 +160,16 @@
     }
     #navbar
     {
+      /**visibility: hidden;*/
       width: 100%;
+      border: black;
+      border-style: dashed;
+      display: flex;
       margin-top: 0%;
     }
     #icons
     {
-      margin-top: 1%;
+      margin-top: 0%;
       width: 15%;
     }
 

@@ -1,9 +1,11 @@
 <script>
-    import SkillIcon from './SkillIcon.vue';
+    import LanguageIcon from './LanguageIcon.vue';
+    import LibrariesFrameworkIcon from './LibrariesFrameworkIcon.vue';
     import ToolIcon from './ToolIcon.vue';
     export default {
         components: {
-    SkillIcon,
+    LanguageIcon,
+    LibrariesFrameworkIcon,
     ToolIcon
 },
         data() {
@@ -20,10 +22,13 @@
     <p>{{ bio1 }} <br><br><br> {{ bio2 }} <br><br><br> {{ bio3 }}</p>
     <br><br><br>
     <div class="icons">
-        <h2>Professional Skillset</h2>
-        <SkillIcon></SkillIcon>
+        <h2>Programming Languages</h2>
+        <LanguageIcon></LanguageIcon>
         <br><br><br>
-        <h2>Tools I Use</h2>
+        <h2>Libraries & Frameworks</h2>
+        <LibrariesFrameworkIcon></LibrariesFrameworkIcon>
+        <br><br><br>
+        <h2>Tools & Platforms</h2>
         <ToolIcon></ToolIcon>
     </div>
     
@@ -32,4 +37,4 @@
 <style>
     p {color:#9FADBD}
     h2 {color:#EFFAFF; display: flex; justify-content: center;}
-</style>
+</style>./LanguageIcon.vue
