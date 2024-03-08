@@ -148,7 +148,7 @@
     }
     #right
     {
-      right: 0;
+      margin-top: 10%;
       height: fit-content;
       width: auto;
       margin: 0 auto;
@@ -162,8 +162,6 @@
     {
       /**visibility: hidden;*/
       width: 100%;
-      border: black;
-      border-style: dashed;
       display: flex;
       margin-top: 0%;
     }

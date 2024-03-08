@@ -53,5 +53,17 @@
     {
         color: #EFFAFF;
         text-shadow: 0 0 5px #EFFAFF;
-     }
+    }
+
+    @media (max-width: 1023px)
+    {
+        .nav
+        {
+            display: flex;
+            flex-direction: row !important;
+            visibility: hidden;
+            border: black;
+            border-style: dashed;
+        }
+    }
 </style>

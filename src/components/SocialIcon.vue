@@ -34,6 +34,7 @@ export default {
     {
         color: #9FADBD;
         transition: .5s;
+        padding: 10%;
     }
 
     a::before

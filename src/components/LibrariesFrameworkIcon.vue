@@ -32,7 +32,7 @@
 <template>
     <div class="row row-cols-1 row-cols-md-4 g-3">
         <div v-for="icon in icons" class="col">
-            <div  class="card text-center w-auto  bg-transparent">
+            <div  class="card text-center w-auto border-dark">
                 <img :src=icon.source class="card-img-top" alt="Python">
                 <div class="card-body">
                     <h5 class="card-title">{{ icon.title }}</h5>
@@ -59,16 +59,16 @@
 {
     .col
     {
-        height: 15%;
         width: 15%;
+        box-sizing: content-box;
+        margin: 0 auto;
+        padding-top: 5%;
     }
     .card-title
     {
-        font-weight: 100;
         white-space: nowrap;
         display: flex;
         justify-content: center;
     }
-
 }
 </style>
