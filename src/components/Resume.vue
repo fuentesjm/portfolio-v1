@@ -17,5 +17,15 @@
 <template>
     <h2>Resume</h2>
     <vue-pdf-embed :source="src" />
-    
+    <a :href="src" target="_blank" class="btn btn-secondary">Resume</a>
 </template>
+
+<style scoped>
+a
+{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+</style>

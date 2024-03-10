@@ -3,8 +3,8 @@
         data () {
             return {
                 name: "Jose M. Fuentes",
-                position: "Software Engineer Graduate",
-                caption: "I am always eager to learn new technologies", 
+                position: "Software Engineer",
+                caption: "Always eager to learn new technologies", 
                 caption2: "and utilize them in my problem solving",
                 caption3: "approaches."
             }

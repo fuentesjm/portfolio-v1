@@ -44,18 +44,9 @@
       </div>
     </div>
   </div>
-
 </template>
 
 <style>
-/*
-  body{
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    background-repeat: no-repeat;
-    background:cover;
-    background-size: cover;
-  }
-**/
   #align
   {
     display: flex;
